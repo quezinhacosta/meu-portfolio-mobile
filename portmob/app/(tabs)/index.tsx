@@ -2,14 +2,21 @@ import { View, Text } from "react-native";
 
 export default function Home() {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center", padding: 20 }}>
-      
-      <Text style={{ fontSize: 26, fontWeight: "bold", textAlign: "center" }}>
-        Olá, eu sou Quézia 
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#fff0f6",
+        padding: 20,
+      }}
+    >
+      <Text style={{ fontSize: 28, fontWeight: "bold", color: "#ff4fa3" }}>
+        Oi, eu sou Quezia Costa
       </Text>
 
       <Text style={{ marginTop: 10, textAlign: "center" }}>
-        Estudante de Ciência da Computação (5º período)
+        Estudante de Ciência da Computação (atualmente no quinto período)
       </Text>
 
       <Text style={{ textAlign: "center" }}>
@@ -17,9 +24,8 @@ export default function Home() {
       </Text>
 
       <Text style={{ textAlign: "center", marginTop: 10 }}>
-        Iniciação Científica em andamento
+        Estudante de iniciação cientifica 
       </Text>
-
     </View>
   );
 }
